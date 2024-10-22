@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Truncated Consistency Models (TCM) for accelerated sampling in generative models">
+    <meta name="author" content="GenAIR team">
+    <link rel="icon" href="assets/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700&display=swap" rel="stylesheet">
 
     <title>Truncated Consistency Models</title>
@@ -13,7 +15,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Custom styles -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 
 <body>
@@ -21,6 +23,31 @@
         <section class="jumbotron text-center" id="banner">
             <div class="container" id="title">
                 <h2 class="jumbotron-heading">Truncated Consistency Models</h2>
+            </div>
+
+            <div class="container" style="max-width: 840px;">
+                <div class="row row-author">
+                    <div class="col-md author">Sangyun Lee<sup>1</sup></div>
+                    <div class="col-md author">Yilun Xu<sup>2</sup></div>
+                    <div class="col-md author">Tomas Geffner<sup>2</sup></div>
+                </div>
+                
+                <div class="row row-author">
+                    <div class="col-md author">Giulia Fanti<sup>1</sup></div>
+                    <div class="col-md author">Karsten Kreis<sup>2</sup></div>
+                    <div class="col-md author">Arash Vahdat<sup>2</sup></div>
+                    <div class="col-md author">Weili Nie<sup>2</sup></div>
+                </div>
+
+                <div class="affil">
+                    <span><sup>1</sup>Carnegie Mellon University</span>
+                    <span><sup>2</sup>NVIDIA Corporation</span>
+                </div>
+                <div class="row" style="margin-top:0rem; margin-left: auto; margin-right: auto;">
+                    <div class="col-md">
+                        <div id="affiliation"><img width="20%" src="assets/nvidialogo.png"></div>
+                    </div>
+                </div>
             </div>
 
             <div class="container">
@@ -32,7 +59,7 @@
             </div>
 
             <div class="buttons">
-                <a href="#" target="_blank" class="btn btn-primary my-2">Paper (Coming Soon)</a>
+                <a href="https://arxiv.org/abs/2410.14895" target="_blank" class="btn btn-primary my-2">Paper</a>
                 <a href="#" target="_blank" class="btn btn-primary my-2">Code (Coming Soon)</a>
             </div>
 
@@ -87,19 +114,27 @@
         <h5>One-step and Two-step Generation Results</h5>
         <img src="images/samples.png" alt="One-step and two-step generation results" style="width: 100%;">
 
-        
-
         <!-- Citation -->
         <hr>
         <h5>Citation</h5>
         <div class="container">
             <div class="paper">
                 <div class="paper_content">
-                    <h4>Paper: Coming Soon</h4>
+                    <h4>Paper: <a href="https://arxiv.org/abs/2410.14895" target="_blank">arxiv.org/abs/2410.14895</a></h4>
                     <h4>Code: Coming Soon</h4>
                     <h4>BibTex:</h4>
                     <div id="citation">
-                        Coming Soon
+                        <pre><code>
+@misc{lee2024truncatedconsistencymodels,
+    title={Truncated Consistency Models}, 
+    author={Sangyun Lee and Yilun Xu and Tomas Geffner and Giulia Fanti and Karsten Kreis and Arash Vahdat and Weili Nie},
+    year={2024},
+    eprint={2410.14895},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    url={https://arxiv.org/abs/2410.14895}, 
+}
+    </code></pre>
                     </div>
                 </div>
             </div>
